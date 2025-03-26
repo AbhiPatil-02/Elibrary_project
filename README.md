@@ -23,7 +23,7 @@ eLibrary is a digital library management system designed to help users organize,
 
 
 
- **ELibrary Web Application – Experiential Learning Project**
+# **ELibrary Web Application – Experiential Learning Project**
 
 As part of our academic experiential learning, our team worked together to create a web-based eLibrary application. This platform allows users to browse, search, and access a collection of e-books and other digital resources. While building this application, we focused on making it easy to use, ensuring smooth navigation, and organizing the data properly for quick access. This project helped us understand how websites work, including both the front-end (what users see) and the back-end (how data is managed). It also taught us the importance of making a user-friendly and efficient system.
 
