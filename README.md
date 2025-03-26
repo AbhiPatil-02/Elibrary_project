@@ -1,6 +1,6 @@
-# Getting Started with Create React App and the project
+## Getting Started with Create React App and the project
 
-## **ELibrary Web Application – Experiential Learning Project**
+# **ELibrary Web Application – Experiential Learning Project**
 
 📚 Introduction
 
