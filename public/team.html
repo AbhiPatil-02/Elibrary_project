@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- //Story// -->
+    <head>
+        <meta charset="utf-8">
+        <title>Read Realm E-Library Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91 7898472310</a>
+                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>ReadRealm@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index1.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>ReadRealm</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index1.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Books</a>
+                            <div class="dropdown-menu m-0">
+                               
+                                <a href="feature.html" class="dropdown-item">Novels</a>
+                                <a href="team.html" class="dropdown-item">Story</a>
+                              
+                                
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s"></h1>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index1.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Books</a></li>
+                    <li class="breadcrumb-item active text-primary">Story</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+      
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">What We Do</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Your digital gateway to thousands of books.</h1>
+                    <p class="mb-0">"We provide a digital platform that offers access to a wide range of books, allowing users to explore, read, and manage their personal library from anywhere at any time."</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/the-tell-tale-heart.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Tell Tale Heart</h5>
+                                    <p class="mb-4">The Tell-Tale Heart" is a short story by American writer Edgar Allan Poe, first published in 1843. It is told by an unnamed narrator who endeavors to convince the reader of the narrator's sanity while simultaneously describing a murder the narrator committed.</p>
+                                    <a href="Books/1. The Tell Tale Heart, Edgar Allan Poe.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/the call of the wild.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Greatest Salesman in the World</h5>
+                                    <p class="mb-4">The Greatest Salesman in the World is a self-help book by Og Mandino about a poor camel boy who becomes rich and the principles that lead to a successful life</p>
+                                    <a href="Books/03. The Call of the Wild author Jack London.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/Fairy-Tale-Series_Jack-the-Beanstalk_FC-1-1.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Jack and the Beanstalk</h5>
+                                    <p class="mb-4">"Jack and the Beanstalk" is an English fairy tale. It appeared as "The Story of Jack Spriggins and the Enchanted Bean" in 1734 and as Benjamin Tabart's moralized </p>
+                                    <a href="Books/02. Jack and the Beanstalk Author Joseph Jacobs.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/cindrella.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Cinderella</h5>
+                                    <p class="mb-4">"Cinderella", or "The Little Glass Slipper", is a folk tale. The protagonist is a young girl living in forsaken circumstances who is suddenly blessed by remarkable fortune, with her ascension to the throne via marriage.</p>
+                                    <a href="Books/04. Cinderella Author Charles Perrault.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/Joker a serious study.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Joker</h5>
+                                    <p class="mb-4">Along with Batman, Spider-Man, and Superman, the Joker stands out as one of the most recognizable comics characters in popular culture.</p>
+                                    <a href="Books/The Joker_ A Serious Study of the Clown Prince of Crime - PDF Room.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/GERNIMO FLOOD MISSION.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Geronimo Stilton Flood Mission </h5>
+                                    <p class="mb-4">Flood mission Geronimo stilton, the mouse from the famous book series of same name, is in Muskart city.</p>
+                                    <a href="Books/Geronimo Stilton Heromice - Book 3 - Flood Mission.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/The_Body_Snatcher_(1945_poster).jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Body Snatcher</h5>
+                                    <p class="mb-4">A teenage girl and her father discover alien clones are replacing humans on a remote U.S. military base in Alabama.</p>
+                                    <a href="Books/Code of conduct, Formula 1.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/red death.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Masque of the Red Death</h5>
+                                    <p class="mb-4">"The Masque of the Red Death" is a short story, first published in 1842. The story follows Prince Prospero's attempts to avoid a dangerous plague, known as the Red Death</p>
+                                    <a href="Books/3. The Masque of the Red Death, Edgar Allan Poe.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/alice.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Alice Wonderland</h5>
+                                    <p class="mb-4">Alice's Adventures in Wonderland is an 1865 English children's novel by Lewis Carroll, a mathematics don at the University of Oxford.</p>
+                                    <a href="Books/01. Alice's Adventures in Wonderland author Lewis Caroll.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/rabbit.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Velveteen Rabbit</h5>
+                                    <p class="mb-4">The Velveteen Rabbit is a British children's book written by Margery Williams. It chronicles the story of a stuffed rabbit's desire to become real through the love of his owner</p>
+                                    <a href="Books/the rabbit.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/up_in_air.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Up in the Air</h5>
+                                    <p class="mb-4">Up in the Air is a 2001 novel by American author Walter Kirn. It was adapted into the 2009 feature film of the same name starring George Clooney.</p>
+                                    <a href="Books/7. Up in the air Author T. Albert.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="img/thecat.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">The Cat in the Hat</h5>
+                                    <p class="mb-4">As Formula 1 continues to grow from strength to strength, each of you can be
+                                        proud of the role you play in making this sport the incredible global event it is today.</p>
+                                    <a href="Books/The Cat in the Hat ( PDFDrive ).pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/hector.png" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Hector the hermit</h5>
+                                                <p class="mb-4">Hector is a rather shy hermit crab. He keeps himself to himself and is very used to his own company. But one day something happens which changes the way Hector's neighbours on the seabed see him, and Hector has to decide how to deal with suddenly being very noticeable indeed.</p>
+                                                <a href="Books/5. Hector the hermit crab Author T. Albert.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/dragon.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Dylan the dragon</h5>
+                                                <p class="mb-4">In this classic tale, Dylan learns to make friends despite obstacles. And when the happily ever after arrives, both the dragon and the reader have learnt a thing or two about relationships.</p>
+                                                <a href="Books/4. Dylan the dragon Author Zani Mathoo.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/Snow_White_and_the_Seven_Dwarfs_poster.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Snow White and the 7 dwarfs</h5>
+                                                <p class="mb-4">When Snow White, a princess, is exiled by her stepmother, an evil queen who wants to kill her, she runs into a forest. Soon, she is rescued by seven dwarfs who form a friendship with her.</p>
+                                                <a href="Books/05. Snow white and the seven dwarfs, Brothers Grimm.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/draculas.png" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Dracula's Guest</h5>
+                                                <p class="mb-4">"Dracula's Guest" is a short story by Bram Stoker, first published in the short story collection Dracula's Guest and Other Weird Stories.</p>
+                                                <a href="Books/5. Dracula's Guest, Bram Stoker.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/yellow.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">The yellow wallpaper</h5>
+                                                <p class="mb-4">"The Yellow Wallpaper" is a short story by American writer Charlotte Perkins Gilman, first published in January 1892 in The New England Magazine</p>
+                                                <a href="Books/07. The Yellow Wall-Papper, Charlotte Perkins Stetson.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/villagew.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Village in India </h5>
+                                                <p class="mb-4">The present volume attempts to address a wide number of interests and presents a profile of processes and change in Indian villages based on publications over the last fifty years.</p>
+                                                <a href="Books/04. Village in India Myths and Realities author Vishwa Anand.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/all for love.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">All For Love</h5>
+                                                <p class="mb-4">All for Love; or, the World Well Lost, is a 1677 heroic drama by John Dryden which is now his best-known and most performed play. It is dedicated to Earl of Danby. It is a tragedy written in blank verse and is an attempt.</p>
+                                                <a href="Books/4. All For Love Author John Dryden.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/the cask.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">The Cask of Amontillado</h5>
+                                                <p class="mb-4">"The Cask of Amontillado" is a short story first published in the November 1846 issue of Godey's Lady's Book. The story, set in an unnamed Italian city at carnival time, is about a man taking fatal revenge on a friend who, he believes, has insulted him.</p>
+                                                <a href="Books/4. The Cask of Amontillado Author Edgar Allan Poe.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/alice.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Alice Wonderland</h5>
+                                                <p class="mb-4">Alice's Adventures in Wonderland is an 1865 English children's novel by Lewis Carroll, a mathematics don at the University of Oxford.</p>
+                                                <a href="Books/01. Alice's Adventures in Wonderland author Lewis Caroll.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/rabbit.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">The Velveteen Rabbit</h5>
+                                                <p class="mb-4">The Velveteen Rabbit is a British children's book written by Margery Williams. It chronicles the story of a stuffed rabbit's desire to become real through the love of his owner</p>
+                                                <a href="Books/the rabbit.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/up_in_air.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">Up in the Air</h5>
+                                                <p class="mb-4">Up in the Air is a 2001 novel by American author Walter Kirn. It was adapted into the 2009 feature film of the same name starring George Clooney.</p>
+                                                <a href="Books/7. Up in the air Author T. Albert.pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item rounded">
+                                       <div class="service-img rounded-top">
+                                            <img src="img/thecat.jpg" class="img-fluid rounded-top w-100" alt="">
+                                       </div>
+                                        <div class="service-content rounded-bottom bg-light p-4">
+                                            <div class="service-content-inner">
+                                                <h5 class="mb-4">The Cat in the Hat</h5>
+                                                <p class="mb-4">As Formula 1 continues to grow from strength to strength, each of you can be
+                                                    proud of the role you play in making this sport the incredible global event it is today.</p>
+                                                <a href="Books/The Cat in the Hat ( PDFDrive ).pdf" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Download PDF</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                                    <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Services More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+        
+                
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Read Realm</h4>
+                            <p>"Read Realm E-Library offers an expansive, interactive platform for accessible digital learning and exploration."
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Quick Links</h4>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Contact Info</h4>
+                            <a href=""><i class="fas fa-envelope me-2"></i>ReadRealm@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i>+91 7898472310</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>ReadRealm</a>, All right reserved.</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        
+    </body>
+
+</html>
